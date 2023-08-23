@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-08-23T01:22:06.533Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="A0mLBufo88s9LONv5lCn" version="21.6.8" type="device">
+  <diagram name="Page-1" id="mRfwKAXrHQeUvMGXdLED">
+    <mxGraphModel dx="1912" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-1" value="Develop and Debug workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlXzRQo7O29RE9u2M4sX-2" target="JlXzRQo7O29RE9u2M4sX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-2" value="checkout a feat/fix branch from dev branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="155" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlXzRQo7O29RE9u2M4sX-3" target="JlXzRQo7O29RE9u2M4sX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-3" value="develop and commit in your own branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="155" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlXzRQo7O29RE9u2M4sX-5" target="JlXzRQo7O29RE9u2M4sX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-5" value="to joint debug, cherry pick or merge your commit to dev branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="155" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-6" value="tag the dev branch to trigger CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="155" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-7" value="dev to qa workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlXzRQo7O29RE9u2M4sX-8" target="JlXzRQo7O29RE9u2M4sX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-8" value="send a MR from your own feat/fix branch to qa branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-12" value="tag the qa branch, ask qa to trigger CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-13" value="qa to staging workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlXzRQo7O29RE9u2M4sX-14" target="JlXzRQo7O29RE9u2M4sX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-14" value="merge qa branch to staging branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-15" value="tag the staging branch, ask qa to trigger CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="410" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-16" value="staging to prod workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="530" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlXzRQo7O29RE9u2M4sX-17" target="JlXzRQo7O29RE9u2M4sX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-17" value="merge staging branch to prod branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="515" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JlXzRQo7O29RE9u2M4sX-19" value="tag the prod branch, ask qa to trigger CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="515" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
